@@ -1,0 +1,36 @@
+<html>
+<head>
+        <title>Course Registration System</title>
+        <script  type="text/javascript" src="mysript.js"></script>
+        <style>
+            td{
+                background-color: aliceblue;
+
+            }
+            body{
+                padding: 50px;
+
+            }
+        </style>
+     </head>
+<body>
+    <h1 style="text-align: center; color: brown;">Enrolled Students</h1>
+    <table align="center" border="1" style="background-color: black;">
+    <tr align="center" style="background-color: lightblue;">
+        <th width="100">Name</th>
+        <th width ="150"> Course Name</th>
+        <th width ="150"> Email_Id</th>
+
+    </tr>
+    <tbody align="center" id="Enroll"></tbody>
+    </table>
+
+
+    <script type="text/javascript">
+        window.onload= function(){
+            showEnrolledStudents();
+        }
+    </script>
+</body>
+</html>
+
